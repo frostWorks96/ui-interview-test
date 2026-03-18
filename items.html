@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Items - Internal Tool</title>
+</head>
+<body>
+    <h1>Items List</h1>
+
+    <p><a href="home.html">Main</a> | <a href="saved.html">Savd Items</a> | <a href="settings.html">Settings</a></p>
+
+    <form action="items.html" method="get">
+        <p>
+            <label for="search">Find thing</label><br>
+            <input type="text" id="search" name="search">
+        </p>
+
+        <p>
+            <label for="category">Category Type</label><br>
+            <select id="category" name="category">
+                <option>All</option>
+                <option>Open</option>
+                <option>Archived</option>
+                <option>Flagged</option>
+                <option>Review</option>
+            </select>
+        </p>
+
+        <p>
+            <button type="submit">Click Here</button>
+        </p>
+    </form>
+
+    <h2>Available Items</h2>
+
+    <div>
+        <h3>Item 204</h3>
+        <p>This item is related to a current internal review and includes notes, prior updates, ownership details, and tracking context that may be useful if you were already following this work before today or if you need to compare it with a different item later.</p>
+        <p>Status: Active</p>
+        <p>Owner: Operations Team</p>
+        <p>Last changed: March 15</p>
+        <p><a href="item-detail.html">View More</a></p>
+    </div>
+
+    <div>
+        <h3>Item 117</h3>
+        <p>This record has been kept in the list because it still contains relevant history, comments, and review notes, even though not every part of it may matter right now and the most useful information is mixed in with supporting details that a user has to read through.</p>
+        <p>Status: Pending</p>
+        <p>Owner: Admin Group</p>
+        <p>Last changed: March 12</p>
+        <p><a href="item-detail.html">Details</a></p>
+    </div>
+
+    <div>
+        <h3>Item 318</h3>
+        <p>This item includes a long description with process background, approval context, internal references, and extra notes about older status changes so the page feels more complete, but it also makes the list harder to scan quickly when someone is just trying to find the next thing to open.</p>
+        <p>Status: Review</p>
+        <p>Owner: Shared Queue</p>
+        <p>Last changed: March 10</p>
+        <p><a href="item-detail.html">See Item</a></p>
+    </div>
+</body>
+</html>
